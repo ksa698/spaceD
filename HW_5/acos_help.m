@@ -6,7 +6,7 @@ if abs(arg-1.0)<1e-12 && arg>1.0
 end
 theta=acos(arg);
 end
-% FUCK THIS
+% Alternative
 % % if abs((dot(r,[1;0;0])/norm(r)))<1e-12 && (dot(r,[1;0;0])/norm(r))>1.0
 % %         (dot(r,[1;0;0])/norm(r))==1.0;
 % %         elseif (dot(r,[1;0;0])/norm(r))<1e-12 && (dot(r,[1;0;0])/norm(r))<-1.0
