@@ -42,16 +42,6 @@ Time=(2*pi)/ang_vel;
     disp(Time)
    % [cart] = orb2cart(mu,a,e,i,OMEGA,w,theta);
 [r,v] = orb2rv(a,e,i,OMEGA,w,theta,mu)
-%% Damn it Jen
-disp('Orbital Elements:')
-mu=398600;
-r_earth=6378; 
-a=6800;  %semi-major axis
-e=0;  %eccentricity
-i=(135*pi)/180;  %inclination
-OMEGA=(270*pi)/180;  %RAAN (right ascension of the ascending node)
-w=(0*pi)/180;  %argument of periapsis
-theta=(90*pi)/180;  %true anomaly
 
 ww = sqrt(mu/a^3);
 Time=(2*pi)/ww;
